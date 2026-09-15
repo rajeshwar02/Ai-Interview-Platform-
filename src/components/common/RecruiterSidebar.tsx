@@ -6,6 +6,7 @@ import {
   Users,
   Video,
   FileBarChart,
+  BrainCircuit,
   Settings,
   Sparkles,
   PlusCircle,
@@ -20,6 +21,7 @@ export const RecruiterSidebar: React.FC = () => {
     { label: 'Candidates', path: '/app/candidates', icon: Users },
     { label: 'Interviews', path: '/app/interviews', icon: Video },
     { label: 'Candidate Comparison', path: '/app/reports/cand-1', icon: FileBarChart },
+    { label: 'AI Copilot', path: '/app/interviews/int-1/copilot', icon: BrainCircuit },
     { label: 'Settings', path: '/app/settings', icon: Settings },
   ];
 
